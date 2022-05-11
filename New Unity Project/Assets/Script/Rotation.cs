@@ -5,6 +5,7 @@ using UnityEngine;
 public class Rotation : MonoBehaviour
 {
     private int turnSpeed = 360;
+    
 
     void Start()
     {
@@ -15,4 +16,15 @@ public class Rotation : MonoBehaviour
     {
         this.transform.Rotate(Vector3.forward, turnSpeed * Time.deltaTime);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+       if(other.tag == "Enemy")
+        {
+            Debug.Log("adasfafg");
+
+        }
+
+    }
+
 }

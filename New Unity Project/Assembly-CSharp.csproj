@@ -53,11 +53,13 @@
     <UnityVersion>2020.3.12f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Rotation.cs" />
     <Compile Include="Assets\Script\Title\UpDown.cs" />
-    <Compile Include="Assets\Script\Rotation1.cs" />
-    <Compile Include="Assets\Script\CharaterMove.cs" />
     <Compile Include="Assets\Script\Stage1\MoveCamera.cs" />
+    <Compile Include="Assets\Script\CharaterMove.cs" />
+    <Compile Include="Assets\Script\Rotation.cs" />
+    <Compile Include="Assets\Script\Rotation1.cs" />
+    <Compile Include="Assets\Script\EnemySpawn.cs" />
+    <Compile Include="Assets\Script\EnemyMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
